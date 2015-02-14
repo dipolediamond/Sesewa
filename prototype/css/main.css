@@ -1,0 +1,56 @@
+nav{
+  margin-right:0;
+}
+
+.initial-questions{
+  margin: 0 auto;
+  width: 250px;
+}
+.select-question p{
+  font-size:30px;
+  
+}
+.select-question{
+  margin-top: 100px;
+}
+.select-question select{
+   border: 1px solid #ccc;
+   background: transparent;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; 
+   width: 268px;
+}
+}
+.artisan-search-result{
+  
+}
+.artisan-summary p .artisan-name{
+
+  
+}
+.artisan-summary .artisan-rating{
+ 
+}
+.artisan-summary{
+  margin-left:0 !important;
+  
+}
+.artisan-name{
+  
+}
+.artisan-review-summary{
+  
+}
+.artisan-rating{
+  
+}
+.artisan-attributes{
+  
+}
+.artisan-review-count{
+  
+}
+.contact-artisan{
+  
+}
