@@ -1,8 +1,10 @@
 <html>
 <head>
-<link src="css/main.css" type="text/css"></link>
+<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+<script src="js/main.js" type="text/javascript"></script>
 </head>
-<body><nav>
+<body>
+<nav class="main-menu">
   <a href="#">Send a review</a>
   <a href="#">Sign in</a>
   <a href="#">View Blog</a>
@@ -26,7 +28,8 @@
     </select>
   </div>
 </div>
-  <div class="artisan-search-results">
+<div class="search-results">
+  <div class="artisans">
     <div class="artisan-summary">
       <p class="artisan-name">Tobe</p>
       <div class="artisan-review-summary">
@@ -62,19 +65,22 @@
         <a href="#">See full review</a>
       </div>
       <div class="contact-artisan"></div>
-    </div>
-    <div class=artisan-noresult-logon>
-      <p>We have no review for artisanName in the selected location. Help your neighbour by sending a review after you have got one.</p>
-    </div>
-     <div class=artisan-noresult-nologon>
-       <div class="artisan-modal-email-form">
-       <p>There is no review for artisanName in the selected location. Kindly enter your email address to keep a correspondence with you. </p>
-         
-       </div>
     </div>
   </div>
-
-
-
+  <div class="clear"></div>
+  <div class="no-result">
+    <p class="message">We have no review for artisanName in the selected location.</p>
+    <div class="no-result-action">
+      <p>When you find one, please help a neighbour by adding a review. Should we send you a reminder?</p>
+      <div class="user-option">
+        <input type="radio" name="send-reminder" value="Y">Yes
+        <input type="radio" name="send-reminde" value="N">No
+      </div>
+      <div class="guest-message">
+        <p>Kindly enter your email address.</p>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
