@@ -68,6 +68,10 @@ nav{
 
 
 /*#Landing page styles#*/
+.branding {
+  text-align: center;
+  margin: 20px 0;
+}
 .initial-questions{
   margin: 0 auto;
   width: 300px;
@@ -78,7 +82,7 @@ nav{
   
 }
 .select-question{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .select-question select{
    border: 1px solid #ccc;
