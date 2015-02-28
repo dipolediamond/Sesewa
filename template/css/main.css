@@ -194,6 +194,28 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.landing-actions {
+    background: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.landing-actions p {
+    color: #fff;
+}
+
+.landing-actions button, .landing-actions p {
+    display: inline-block;
+    margin: 5px;
+}
+
+.guest-message input[type="email"],
+.guest-message button {
+    width: 90%;
+    display: block;
+    margin: 5px auto;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
